@@ -1,0 +1,56 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+typedef vector<int> vi;
+typedef pair<int , int> vpi;
+
+#define FOR(i, a, b) for(int i = a; i < b ; i++)
+#define ll long long
+#define mod 1000000007
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define ALL(c) c.begin() , c.end()
+#define endl '\n'
+#define Gap " "
+
+void solve()
+{
+    long long a;        
+    cin>>a;
+    vector<int> v;
+    while(a){
+        if(a%2==0){
+            v.push_back(0);
+            a/=2;
+        }else{
+            if(a%4!=1){
+                v.push_back(-1);
+                a=(a+1)/2;
+            }else{
+                v.push_back(1);
+                a=(a-1)/2;
+            }
+        }
+    }
+    cout<<v.size()<<endl;
+    for(int i:v){
+        cout<<i<<" ";
+    }
+    cout<<endl;
+
+}
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    int T = 1;
+    cin >> T;
+    while (T-- != 0)
+    {
+        solve();
+    }
+    return 0;
+}

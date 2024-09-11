@@ -1,0 +1,1 @@
+{"name":"Local: one","url":"d:\\C++ Let's Gooo\\tredence\\one.cpp","tests":[{"id":1723057215665,"input":"2\n5\n1 2 3 4 5\n5\n3 2 1 4 5","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++ Let's Gooo\\tredence\\one.cpp","group":"local","local":true}

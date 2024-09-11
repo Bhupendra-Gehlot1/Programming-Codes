@@ -1,0 +1,1 @@
+{"name":"Local: Ntriples","url":"d:\\C++ Let's Gooo\\competative\\codechef\\codechef_starter72\\Ntriples.cpp","tests":[{"id":1673444731455,"input":"3\n30\n24\n3","output":"2 3 5\n2 6 4\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++ Let's Gooo\\competative\\codechef\\codechef_starter72\\Ntriples.cpp","group":"local","local":true}
